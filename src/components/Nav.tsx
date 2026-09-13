@@ -5,7 +5,7 @@ import Logo from "../assets/logo-text.png";
 const Nav = () => {
   return (
     <div className="fixed top-0 left-0 w-full bg-white border-b border-gray-100 z-50 shadow-sm">
-      <nav className="container mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
+      <nav className="container mx-auto px-4 sm:px-6 lg:px-16 h-20 flex justify-between items-center">
         <div className="flex-1 lg:hidden flex justify-start">
           <button className="text-2xl text-gray-700 hover:text-pink-600 focus:outline-none">
             <GiHamburgerMenu />
